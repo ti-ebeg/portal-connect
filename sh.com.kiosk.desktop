@@ -1,0 +1,5 @@
+[Desktop Entry]
+Name=Kiosk
+Comment=Kiosk mode
+Exec=/usr/bin/gnome-session --session=curso-kiosk
+DesktopNames=curso-kiosk;GNOME;
