@@ -1,6 +1,6 @@
 #!/bin/sh
 echo "Instalando depedencias"
-apt update && apt upgrade -y && apt install git chromium-browser
+apt update && apt upgrade -y && apt install git chromium-browser -y
 echo "Acessando pasta para trabalhos"
 cd /tmp/
 echo "Clonando repositórios"
