@@ -13,6 +13,9 @@ if [ ! -e ~/.local/bin/kiosk ]; then
 # The "while true" bit just makes sure the application gets
 # restarted if it dies for whatever reason.
 
+#For hiden top bar open the link: https://extensions.gnome.org/extension/545/hide-top-bar/
+#For hiden tark bar open the link: 
+
 while true; do
     /usr/bin/chromium-browser --noerrdialogs --disable-infobars --kiosk --url https://www.r3grupo.com.br/Kiosk/index.html
 done
