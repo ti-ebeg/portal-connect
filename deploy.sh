@@ -2,7 +2,7 @@
 echo "Removendo Algumas customizações do Ubuntu
 gnome-extensions disable ubuntu-dock@ubuntu.com && gnome-extensions disable ding@rastersoft.com && gsettings set org.gnome.mutter overlay-key ''
 echo "Instalando depedencias"
-apt update && apt upgrade -y && apt install git chromium-browser -y
+apt update && apt upgrade -y && apt install  gnome-tweaks git chromium-browser -y
 echo "Acessando pasta para trabalhos"
 cd /tmp/
 echo "Clonando repositórios"
