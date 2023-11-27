@@ -1,4 +1,6 @@
 #!/bin/sh
+echo "Removendo Algumas customizações do Ubuntu
+gnome-extensions disable ubuntu-dock@ubuntu.com
 echo "Instalando depedencias"
 apt update && apt upgrade -y && apt install git chromium-browser -y
 echo "Acessando pasta para trabalhos"
