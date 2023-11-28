@@ -1,6 +1,4 @@
 #!/bin/sh
-echo "Removendo Algumas customizações do Ubuntu"
-gnome-extensions disable ubuntu-dock@ubuntu.com && gnome-extensions disable ding@rastersoft.com && gsettings set org.gnome.mutter overlay-key ''
 echo "Instalando depedencias"
 apt update && apt upgrade -y && apt install gnome-tweaks git chromium-browser -y
 echo "Acessando pasta para trabalhos"
@@ -22,5 +20,7 @@ echo "Colocando o programa na inicialização do sistema"
 #systemctl enable kiosk.service
 echo "Bom, eu acho que é isso... Vou iniciar o programa"
 exit
+echo "Removendo Algumas customizações do Ubuntu"
+gnome-extensions disable ubuntu-dock@ubuntu.com && gnome-extensions disable ding@rastersoft.com && gsettings set org.gnome.mutter overlay-key ''
 sh /usr/bin/kiosk.sh
 done
