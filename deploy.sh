@@ -1,5 +1,5 @@
 #!/bin/sh
-echo "Removendo Algumas customizações do Ubuntu
+echo "Removendo Algumas customizações do Ubuntu"
 gnome-extensions disable ubuntu-dock@ubuntu.com && gnome-extensions disable ding@rastersoft.com && gsettings set org.gnome.mutter overlay-key ''
 echo "Instalando depedencias"
 apt update && apt upgrade -y && apt install gnome-tweaks git chromium-browser -y
