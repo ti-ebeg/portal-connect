@@ -17,7 +17,7 @@ mv com.kiosk.desktop /usr/share/applications/
 mv com.kiosk.WindowManager.desktop /usr/share/applications/
 mv sh.com.kiosk.desktop /usr/share/xsessions/com.kiosk.desktop
 echo "90% concluído ..."
-echo "Tenha paciência meu jovem Padawan  :)"
+echo "Tenha paciência meu jovem Padawan"
 echo "Colocando o programa na inicialização do sistema"
 #systemctl enable kiosk.service
 echo "Bom, eu acho que é isso... Vou iniciar o programa"
